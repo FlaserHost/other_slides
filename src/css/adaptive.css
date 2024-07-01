@@ -1,4 +1,3 @@
-/*
 @media screen and (max-width: 1350px) {
     .article__slide {
         grid: 1fr / 1fr;
@@ -7,6 +6,7 @@
 
     .article__slide > h2 {
         text-align: center;
+        word-break: break-all;
     }
 
     .article__slide > .article__slide__img-wrapper {
@@ -28,4 +28,25 @@
         display: flex;
         justify-content: center;
     }
-}*/
+}
+
+@media screen and (max-width: 595px) {
+    .article__slide .article__slide__tags {
+        grid: 1fr / 1fr;
+    }
+}
+
+@media screen and (max-width: 551px) {
+    .article__slide .article__slide__tags {
+        width: 100%;
+    }
+
+    .result-link,
+    .recruiting-link,
+    .kedo-link,
+    .talents-link,
+    .cafe-link {
+        grid-column: initial;
+        grid-area: initial;
+    }
+}
