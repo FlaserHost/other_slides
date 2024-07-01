@@ -41,11 +41,11 @@
         width: 100%;
     }
 
-    .result-link,
-    .recruiting-link,
-    .kedo-link,
-    .talents-link,
-    .cafe-link {
+    .article__slide .result-link,
+    .article__slide .recruiting-link,
+    .article__slide .kedo-link,
+    .article__slide .talents-link,
+    .article__slide .cafe-link {
         grid-column: initial;
         grid-area: initial;
     }

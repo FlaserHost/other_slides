@@ -65,23 +65,23 @@ a {
     justify-content: center;
 }
 
-.result-link {
+.article__slide .result-link {
     grid-column: 1 / 8;
 }
 
-.recruiting-link {
+.article__slide .recruiting-link {
     grid-column: 8 / 12;
 }
 
-.kedo-link {
+.article__slide .kedo-link {
     grid-column: 12 / 15;
 }
 
-.talents-link {
+.article__slide .talents-link {
     grid-area: 2 / 1 / 3 / 9;
 }
 
-.cafe-link {
+.article__slide .cafe-link {
     grid-area: 2 / 9 / 3 / 15;
 }
 
