@@ -1,0 +1,31 @@
+/*
+@media screen and (max-width: 1350px) {
+    .article__slide {
+        grid: 1fr / 1fr;
+        padding: 20px 30px;
+    }
+
+    .article__slide > h2 {
+        text-align: center;
+    }
+
+    .article__slide > .article__slide__img-wrapper {
+        grid-area: initial;
+    }
+
+    .article__slide > .article__slide__img-wrapper > figure {
+        display: flex;
+        justify-content: center;
+    }
+
+    .article__slide > .article__slide__img-wrapper > figure > img {
+        min-width: initial;
+        max-width: 480px;
+    }
+
+    .article__slide .article__slide__tags__wrapper {
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+}*/
