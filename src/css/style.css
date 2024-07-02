@@ -63,6 +63,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .3s;
+}
+
+.article__slide .article__slide__tags > a:hover {
+    background-color: #5565ae;
+    color: #e6e9f8;
 }
 
 .article__slide .result-link {
