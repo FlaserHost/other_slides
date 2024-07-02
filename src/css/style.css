@@ -48,6 +48,12 @@ a {
     padding-top: 30px;
 }
 
+.article__slide__tags__wrapper {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 80px;
+}
+
 .article__slide .article__slide__tags {
     display: grid;
     grid: repeat(2, 32px) / repeat(14, 20px);
