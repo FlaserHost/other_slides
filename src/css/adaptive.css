@@ -20,7 +20,6 @@
 
     .article__slide > .article__slide__img-wrapper > figure > img {
         min-width: initial;
-        max-width: 480px;
     }
 
     .article__slide .article__slide__tags__wrapper {
