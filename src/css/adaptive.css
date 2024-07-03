@@ -20,6 +20,7 @@
 
     .article__slide > .article__slide__img-wrapper > figure > img {
         min-width: initial;
+        max-width: 480px;
     }
 
     .article__slide .article__slide__tags__wrapper {
@@ -32,6 +33,10 @@
 @media screen and (max-width: 595px) {
     .article__slide .article__slide__tags {
         grid: 1fr / 1fr;
+    }
+
+    .article__slide > .article__slide__img-wrapper > figure > img {
+        max-width: initial;
     }
 }
 
