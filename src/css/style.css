@@ -51,7 +51,7 @@ a {
 .article__slide__tags__wrapper {
     display: flex;
     align-items: flex-end;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .article__slide .article__slide__tags {
@@ -70,6 +70,7 @@ a {
     align-items: center;
     justify-content: center;
     transition: .3s;
+    margin-right: -10px;
 }
 
 .article__slide .article__slide__tags > a:hover {
