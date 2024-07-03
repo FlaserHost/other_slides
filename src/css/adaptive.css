@@ -36,7 +36,7 @@
     }
 
     .article__slide > .article__slide__img-wrapper > figure > img {
-        max-width: initial;
+        max-width: 100%;
     }
 }
 
