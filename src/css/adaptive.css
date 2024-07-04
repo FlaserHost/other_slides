@@ -53,4 +53,10 @@
         grid-column: initial;
         grid-area: initial;
     }
+
+    .article__slide .article__slide__tags > .result-link,
+    .article__slide .article__slide__tags > .recruiting-link,
+    .article__slide .article__slide__tags > .talents-link {
+        margin-right: 0;
+    }
 }

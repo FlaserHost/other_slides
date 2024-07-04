@@ -70,6 +70,11 @@ a {
     align-items: center;
     justify-content: center;
     transition: .3s;
+}
+
+.article__slide .article__slide__tags > .result-link,
+.article__slide .article__slide__tags > .recruiting-link,
+.article__slide .article__slide__tags > .talents-link {
     margin-right: -15px;
 }
 
